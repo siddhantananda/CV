@@ -1,0 +1,27 @@
+body {
+    background-color: #F9F5E7;
+  }
+
+  hr {
+    /*background-color: #dbbfa0;*/
+    border-color: #e9d9c7;
+    border-style: dotted none none;
+    /* border-width: 2px; */
+    border-top-width: 8px;
+    /*height: 10px;*/
+    width: 10%;
+  }
+
+  h1 {
+      color: #895d66c6;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bolder;
+  }
+
+  h3 {
+      color: #895d66c6;
+  }
+
+  .footerLinks {
+    text-align: center;
+  }
