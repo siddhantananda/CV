@@ -25,3 +25,12 @@ body {
   .footerLinks {
     text-align: center;
   }
+
+  .links:hover {
+    background-color: #EDDBC7;
+  }
+
+  #Profile-image {
+      border-radius: 40%;
+      box-shadow: 4px 4px 10px #895d66c6;
+  }
