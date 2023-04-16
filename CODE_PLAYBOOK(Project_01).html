@@ -11,7 +11,7 @@
 <center>
 	<h1>HTML Tags</h1>
 </center>
-<hr size="2">
+<hr size="2" style="border-style: solid; width: 80%; border-color: rgb(142, 122, 86);">
 <br>
 <br>
 <h3>1. Heading Elements(h1-h6..../h1-/h6) :</h3>
@@ -23,6 +23,7 @@
 	<h5>Heading level 5</h5>
 	<h6>Heading level 6</h6>
 <br>
+<hr>
 <br>
 <h3>2. Line Break in text(br - self-closing tag )</h3>
 <br>
@@ -31,12 +32,14 @@
 	<h4>Attributes:- </h4>
 	<p>align, color, noshade, size, width</p>
 <br>
+<hr>
 <br>
 <h3>4. Centered Horizontally(center..../center) :</h3>
 	<p>For example:-</p>
 	<center>This text will be centered.
 	<p>So will this paragraph.</p></center>
 <br>
+<hr>
 <br>
 <h3>5. Paragraph(p.../p) :</h3>
 	<p>For example:-</p>
@@ -48,38 +51,49 @@
  	This is the second paragraph.
  	This is the second paragraph.
  	This is the second paragraph.</p>
+<br>
+<hr>
 <h3>6. HTML-tag(html..../html)</h3>
 <br>
+<hr>
 <br>
 <h3>7. Document Type(!DOCTYPE html)</h3>
 <br>
+<hr>
 <br>
 <h3>8. Comment in Code(!--COMMENT--) :</h3>
 	<!--This line will be comment out so won't be visible in the website-->
 <br>
+<hr>
 <br>
 <h3>9. MetaData of the Site(meta - self-closing tag )</h3>
 <br>
+<hr>
 <br>
 <h3>10. Un-ordered List(ul..../ul) :</h3>
 	<p>Uses Bullet-points.</p>
 <br>
+<hr>
 <br>
 <h3>11. Ordered List(ol..../ol) :</h3>
 	<p>Uses no.s(1,2,3..), Roman numericals(i,ii,iii,...), alphabets(a,b,c,...).</p>
 	<p>Attributes like: style(for 1/i/a),start(if needed to start from a specific place).</p>
 <br>
+<hr>
 <br>
 <h3>12. List Item(li..../li) :</h3>
 	<p>contains item & stay inside a UL or OL.</p>
 <br>
+<hr>
 <br>
 <h3>13. To show Images(img) :</h3>
 	<p>Attibutes like: source(to locate the image file), alt(if image file can't be rendered then to show a text written here).</p>
 <br>
+<hr>
 <br>
 <h3>14. Anchor Tag (<em>For Hyperlinks</em>) (a..../a) :</h3>
 	<p>Attributes like:href[included in start tag](for destination address),link text[remain in between tags](text that get highlighted), download[ramin in the start tag](to make the link downloadable).</p>
+<hr>
 <h3>15. Form tag (form..../form) :</h3>
 <p>It can have the below mentioned tags with-in it</p>
 	<ol>
@@ -145,6 +159,7 @@
 			<textarea name="" id="" cols="30" rows="10"></textarea>
 		</li>
 	</ol>
+<hr>
 <h3>16. CSS font link for my-site</h3>
 <p>link rel="preconnect" href="https://fonts.googleapis.com"></p>
 <p>link rel="preconnect" href="https://fonts.gstatic.com" crossorigin></p>
@@ -186,7 +201,18 @@
 		</tr>
 	</tbody>
 </table>
-
+<hr>
+<h3>17. "font-size" property:</h3>
+<p>We can use px(i.e. pixel value) similar to what we use in MS Word. This method of inseting the valuw is <strong>Static</strong>.</p>
+<p>Also we can use percentage(%) as value where 100% = 16px (when browser viewing mode is in Medium). So accordingly we can calculate the input. This method of inseting the value is <strong>Dynamic</strong>.</p>
+<p>Another kind of values that we can use for size is em, where 1em = 16px, this is also a <strong>Dynamic</strong> method</p>
+<div style="border: 2px solid black; width: fit-content;">
+	<p style="margin: 7px 10px;">But percentage and em are <em>inherited</em> type of values. They adjust their size accoeding to the parent element tag's style/size.</p>
+</div>
+<p>Also there is a value type rem(i.e. root em), which means instead of depending on the parent tag's style it will only depend on the <strong>root value</strong> which is 1rem = 16px</p>
+<br>
+<hr>
+<br>
 
 
 </body>

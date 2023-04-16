@@ -8,24 +8,43 @@ body {
 }
 
 div {
-    padding-left: 8px;
+    /* padding-left: 8px; */
 }
 
 h1 {
-    margin-top: 0px;
+    font-size: 500%;
+    margin: 30px auto 0px;
     font-family: 'Style Script', cursive;
 }
 
 h2 {
     font-family: 'Acme', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 100;
+    color: #5ebfbf;
 }
 
 h3 {
     font-family: 'Fondamento', cursive;
+    color: #5ebfbf;
 }
 
+p {
+    line-height: 2;
+}
+
+hr {
+    /*background-color: #dbbfa0;*/
+    border-color: #aae4e4;
+    border-style: dotted none none;
+    /* border-width: 2px; */
+    border-top-width: 8px;
+    /*height: 10px;*/
+    width: 10%;
+  }
+
 .top-container {
-    background-color: rgb(149, 250, 250);
+    background-color: rgb(190, 251, 251);
     /* padding-bottom: 1px; */
     padding-top: 100px;
     position: relative;
@@ -33,7 +52,8 @@ h3 {
 
 .my-intro {
     position: relative;
-    top: 180px
+    top: 180px;
+    color: #53a2a2;
 }
 
 /* .middle-container {
@@ -41,6 +61,7 @@ h3 {
     height: 200px;
     width: 200px;
     margin: 0 auto;
+    text-align: center;
 }
 
 .bottom-container {
@@ -52,13 +73,13 @@ h3 {
 
 .top-cloud{
     position: absolute;
-    right: 450px;
+    right: 350px;
     top: 230px;
 }
 
 .bottom-cloud {
     position: absolute;
-    left: 450px;
+    left: 350px;
     bottom: 250px;
 }
 
@@ -75,9 +96,10 @@ h3 {
 }
 
 .my-name {
-    color: black;
+    /* color: black; */
     text-decoration: none;
     font-family: 'Sacramento', cursive;
+    color: #53a2a2;
 }
 
 .my-name:hover {
@@ -85,26 +107,69 @@ h3 {
 }
 
 .skill-1 {
-    height: 300px;
-    /* margin: 0px auto; */
+    /* height: 200px; */
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+    /* margin: 60px 0px; */
     /* border-radius: 20%; */
 }
 
 .skill-2 {
-    margin-top: 40px;
-    height: 300px;
+    /* margin: 100px 0px; */
+    /* height: 200px; */
+    width: 25%;
+    float: right;
+    margin-left: 30px;
 }
 
 .skill-3 {
-    margin-top: 40px;
-    height: 320px;
-    border-radius: 100%;
+    /* margin: 100px 0px; */
+    /* height: 200px; */
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+    /* border-radius: 100%; */
 }
+
+/* .skill-1:hover {
+    height: 420px;
+    margin: 0px;
+}
+
+.skill-2:hover {
+    height: 400px;
+    margin: 50px 0px;
+}
+
+.skill-3:hover {
+    height: 420px;
+    margin: 40px 0px;
+} */
+
+.skill-row {
+    margin: 150px auto;
+    height: 200px;
+    width: 50%;
+    text-align: left;
+}
+
+/* .coding-skill-description {
+    clear: left;
+}
+
+.webdev-skill-description {
+    clear: right;
+}
+
+.foodie-skill-description {
+    clear: left;
+} */
 
 #my-picture {
     /* padding-top: 15px; */
     margin-top: 35px;
-    /* border-radius: 50%; */
-    /* box-shadow: 3px 4px 10px #895d66c6; */
-    height: 150px;;
+    border-radius: 50%;
+    box-shadow: 3px 4px 10px #895d66c6;
+    height: 150px;
 }
